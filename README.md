@@ -1,1 +1,3 @@
-# workday-scheduler
+# Workday Scheduler
+
+![](develop/images/workday-scheduler
