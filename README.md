@@ -1,5 +1,23 @@
 # Workday Scheduler
 
-<img src="images/workday-scheduler.PNG" width= 100 >
+<img src="images/workday-scheduler.PNG" width= 50% >
 
-#Test
+## *This is an application that allows the user to store and save their tasks for their day.*
+  * Allows user to keep track of time.
+  * Greyed out areas indicate that time slot has already passed.
+  * Red areas indicate the current hour.
+  * Green areas indicate the future time slots.
+### Made using:
+  * Css
+  * HTML
+  * Moment.js
+  * Javascript
+  * CSS
+  * JQuery
+
+Link to live site:
+  * https://cdehek.github.io/workday-scheduler
+  
+  
+  
+Made with ❤️ by Christian Dehek
