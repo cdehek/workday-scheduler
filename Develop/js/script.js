@@ -25,7 +25,7 @@ $("button").click(function() {
     hourString = $(this).siblings("div").text();
     
     saveSchedule(hourString, value);
-  });
+});
 
 var tasks = {};
 
@@ -72,4 +72,22 @@ function updateCalendarTasks(dayObject) {
       let res = $(this).children("div");
       $(this).children("textarea").text(dayObject[res.text()]);
     })
+}
+
+let counter = 1;
+for(const property in workDay) {
+  let textEntry = "#text-entry" + counter;
+  $(textEntry).text(workDay[property]);
+  let timeId = "#time" + counter;
+  let presentHour = moment().hour();
+  let timeString = $(timeId).text();
+  let timeNumber = hourNumberFromHourString(timeString);  
+  if(timeNumber < presentHour) {
+    $(textEntry).addClass("past-hour");
+  } else if (timeNumber > presentHour) {
+    $(textEntry).addClass("future-hour");
+  } else {
+    $(textEntry).addClass("present-hour");
+  }
+  counter ++;
 }

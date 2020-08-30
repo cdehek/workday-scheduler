@@ -47,16 +47,19 @@ textarea{
   color: white;
 }
 
-.present {
+.present-hour {
   background-color: #ff6961;
   color: white;
 }
 
-.future {
+.future-hour {
   background-color: #77dd77;
   color: white;
 }
 
+.past-hour {
+  background-color: lightgrey;
+}
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
