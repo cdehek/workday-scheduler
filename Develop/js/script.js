@@ -29,9 +29,9 @@ $("button").click(function() {
 
 var tasks = {};
 
-// var saveTasks = function() {
-//     localStorage.setItem("tasklist", JSON.stringify(tasks));
-//   };
+var saveTasks = function() {
+    localStorage.setItem("tasklist", JSON.stringify(tasks));
+  };
 function hourNumberFromHourString(hourString) {
     switch(hourString) {
       case "8 AM": return 8;
