@@ -1,3 +1,3 @@
 # Workday Scheduler
 
-![](develop/images/workday-scheduler.png)
+![](Develop/images/workday-scheduler.png)
