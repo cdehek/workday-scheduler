@@ -9,10 +9,10 @@
   * Red areas indicate the current hour.
   * Green areas indicate the future time slots.
 ### Made using:
-  * Css
   * HTML
   * Moment.js
   * Javascript
+  * Bootstrap
   * CSS
   * JQuery
 
